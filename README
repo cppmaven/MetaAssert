@@ -6,4 +6,4 @@
 
 HTML documetation will be forthcoming.
 
-In the meantime, examine the four example unittest files for sample usage.
+This submission would make it possible to write unit tests for static assertions in meta-programs, to verify that static assertions will pass when they should, and also to verify that static assertions will fail when they should.  These tests will all compile, and the non-passing static assertions will communicate the detected failure to a test framework at run-time, instead of failing to compile.
